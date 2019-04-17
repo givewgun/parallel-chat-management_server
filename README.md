@@ -1,6 +1,7 @@
 runserver : 
 - cmd/terminal -> npm install
-- install mysql
-- create database by running /database_file/db_gen.sql
+- install MySQL
+- create MySQL database by running /database_file/db_gen.sql 
+- change password to your MySQL password in /config/dbconnect.js
 - cmd/terminal -> npm run server
 - cmd/terminal -> pytest -v test_chatmgmt_server.py
