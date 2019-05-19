@@ -1,6 +1,4 @@
-runserver :
-- install nginx
-- apply nginx.conf in ./loadbalancer/nginx.conf
+run management server :
 - cmd/terminal -> npm install
 - install MySQL
 - create MySQL database by running /database_file/db_gen.sql 
